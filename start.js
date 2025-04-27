@@ -1,6 +1,6 @@
 // var tl=gsap.timeline();
 // tl.from(".nav",{
-//     y:50,
+//     y:-50,
 //     duration: 0.5,
 //     ease: "power1.out",
 //     delay:0.2,
