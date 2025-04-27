@@ -1,0 +1,128 @@
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+html,
+body {
+  width: 100%;
+  height: 100%;
+  font-family: Arial, sans-serif;
+  background-color: #121212;
+}
+.main {
+  width: 100%;
+  position: relative;
+  background-color: #121212;
+  color: white;
+}
+.box {
+  width: 100%;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  padding: 100px 0;
+}
+
+.nav {
+  position: absolute;
+  top: 0;
+  width: 100%;
+  height: 6.2vw;
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  background-color: #222222;
+  padding: 0 10px;
+}
+
+.nav .logo img {
+  width: 15vw;
+  padding: 0 20px;
+  filter: invert(1);
+}
+
+.nav .about h1,
+.nav .about a {
+  color: #d4c1a8;
+  text-decoration: none;
+  font-size: 1.5vw;
+  padding: 0.5vw 0.5vw;
+
+  cursor: pointer;
+}
+.about {
+  display: flex;
+}
+.about h1 {
+  text-transform: capitalize;
+  font-size: 1.8vw;
+  font-weight: 400;
+}
+.quiz-container {
+  width: 80%;
+  height: 60%;
+  background: rgba(102, 102, 102, 0.548);
+  padding: 20px 30px;
+  border-radius: 10px;
+  box-shadow: 0 5px 15px rgba(0, 0, 0, 0.3);
+  margin-top: 40px;
+  text-align: center;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  flex-direction: column;
+}
+.quiz-container h1 {
+  padding: 30px;
+  color: rgb(117, 117, 160);
+  text-transform: uppercase;
+}
+#question-container {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  flex-direction: column;
+}
+#question {
+  font-size: 1.8vw;
+}
+
+.btn-grid {
+  width: 40%;
+  margin: 20px 0;
+  display: flex;
+  flex-direction: column;
+  gap: 10px;
+}
+
+button {
+  width: 100%;
+  text-transform: uppercase;
+  font-size: 1vw;
+  font-weight: 600;
+  padding: 10px;
+  border: none;
+  border-radius: 5px;
+  background-color: rgb(117, 117, 160);
+  color: white;
+  cursor: pointer;
+}
+
+button:hover {
+  background-color: rgb(80, 80, 138);
+}
+
+#feedback {
+  text-transform: uppercase;
+  margin: 30px;
+  font-weight: bold;
+  font-size: 1.5vw;
+}
+
+.hide {
+  display: none;
+}
+#result h2 {
+  padding: 10px 0;
+}

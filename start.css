@@ -1,0 +1,168 @@
+*{
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+html, body {
+  width: 100%;
+  height: 100%;
+  overflow: hidden;
+}
+
+/* Main Container */
+.main {
+  width: 100%;
+  height: 100%;
+  background-color:#121212; 
+  color: white;
+  font-family: Arial, sans-serif;
+  position: relative;
+}
+
+.nav {
+  position: absolute;
+  top: 0;
+  width: 100%;
+  height: 6.2vw;
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  background-color:#222222 ;
+  padding: 0 10px;
+}
+
+.nav .logo img {
+  width: 15vw;
+  padding: 0 20px;
+  filter:invert(1);
+}
+
+.nav .about h1,
+.nav .about a {
+  color:#D4C1A8;
+  text-decoration: none;
+  font-size: 1.5vw;
+  padding: 0.5vw  0.5vw;
+ 
+  cursor: pointer;
+}
+.about{
+  display: flex;
+}
+.about h1{
+  text-transform: capitalize;
+  font-size: 1.8vw;
+  font-weight: 400;
+}
+.desc{
+    width: 100%;
+    position: absolute;
+    top: 8vw;
+    height: 500px;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    padding: 20px;
+    text-align: center;
+}
+
+.box{
+  opacity: 1;
+    
+    width: 60%;
+    font-size: 2vw;
+}
+
+button{
+     cursor: pointer;
+    margin-top: 30px;
+    font-size: 1.2vw;
+    font-weight: 600;
+    padding: 15px;
+    border: 1px solid #444444 ;
+    background-color:#D4C1A8 ;
+    border-radius: 5vw;
+    color: black;
+}
+
+button:hover{
+  
+   background-color:#fae6cb ;
+   color: black;
+ 
+  transform: scale(1.2);
+}
+
+.about h1:hover{
+  
+  background-color: rgb(108, 107, 107);
+  color: white;
+
+ transform: scale(1.2);
+}
+
+.nav .about h1:hover {
+  transform: scale(1.1);
+  color: white;
+  background-color: #444444;
+  border-radius: 5px;
+}
+
+/* Forms (Sign Up, Login, Contact) */
+form {
+  position: absolute;
+  top: 8vw;
+  left: 40%;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+ width: 400px;
+ height: 400px;
+  margin: 50px auto;
+  padding: 20px;
+  background-color: #222;
+  border-radius: 10px;
+}
+
+form input,
+form textarea {
+  width: 100%;
+  padding: 15px;
+  margin: 10px 0;
+  background-color: #333;
+  border: none;
+  border-radius: 5px;
+  color: white;
+}
+
+form button {
+  cursor: pointer;
+  padding: 15px;
+  background-color: #00bfff;
+  border: none;
+  border-radius: 5px;
+  color: black;
+  font-weight: bold;
+  margin-bottom: 20px;
+}
+
+form button:hover {
+  background-color: #0088cc;
+}
+
+/* Footer */
+footer {
+  position: absolute;
+  bottom: 0;
+  width: 100%;
+  margin-top: 50px;
+  text-align: center;
+  padding: 20px;
+  background-color: #302d2d;
+  color: white;
+}
+
+footer p {
+  margin: 0;
+}
