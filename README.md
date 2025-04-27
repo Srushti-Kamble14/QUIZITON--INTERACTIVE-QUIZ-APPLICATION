@@ -68,6 +68,8 @@ Edit<br>
 <br>
 <br>
 
-| Landing Page |About Page  | Quiz Page | Dashboard |
+| Landing Page | About Page | Quiz Page | Dashboard |
 |:---:|:---:|:---:|:---:|
-| ![Landing]() | ![Quiz]() | ![About]() | ![Dashboard]() |  ![Login]() |  ![Signup]() | 
+| ![Landing](https://github.com/user-attachments/assets/82874c6c-f030-433a-aa49-85c9d71160e2) | ![About](https://github.com/user-attachments/assets/d87dd9f2-0293-4e46-a7f0-0ce367734e34) | ![Quiz](https://github.com/user-attachments/assets/c0d071af-cf09-4e6a-a603-815be4180c97) | ![Dashboard](https://github.com/user-attachments/assets/24c63823-8f02-4657-955e-f5c46ff43f99) |
+| Dashboard | Signup Page |
+| ![Login](https://github.com/user-attachments/assets/3c77bcbf-dd28-42d0-b528-31a6e04ed18b) | ![Signup](https://github.com/user-attachments/assets/41b77edc-7796-400a-9846-2987c4e2b08f) |
