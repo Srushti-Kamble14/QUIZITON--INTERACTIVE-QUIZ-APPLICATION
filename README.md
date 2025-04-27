@@ -70,7 +70,7 @@ Edit<br>
 
 | **Landing Page** | **About Page** | **Quiz Page** |
 |:---:|:---:|:---:|
-| ![Landing](https://raw.githubusercontent.com/user-attachments/assets/82874c6c-f030-433a-aa49-85c9d71160e2) | ![About](https://raw.githubusercontent.com/user-attachments/assets/d87dd9f2-0293-4e46-a7f0-0ce367734e34) | ![Quiz](https://raw.githubusercontent.com/user-attachments/assets/c0d071af-cf09-4e6a-a603-815be4180c97) |
+| ![Landing](https://github.com/user-attachments/assets/82874c6c-f030-433a-aa49-85c9d71160e2) | ![About](https://raw.githubusercontent.com/user-attachments/assets/d87dd9f2-0293-4e46-a7f0-0ce367734e34) | ![Quiz](https://raw.githubusercontent.com/user-attachments/assets/c0d071af-cf09-4e6a-a603-815be4180c97) |
 
 
 | **Dashboard** | **Login Page** | **Signup Page** |
